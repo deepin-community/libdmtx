@@ -1,0 +1,79 @@
+libdmtx (0.7.5-1) unstable; urgency=low
+
+  * Updated standards. Moved packaging to debhelper.
+  * Changed homepage to sourceforge and upstream source to github.
+  * New upstream version.
+
+ -- Roberto Lumbreras <rover@debian.org>  Wed, 08 Aug 2018 17:52:33 +0200
+
+libdmtx (0.7.4-2) unstable; urgency=low
+
+  * Updated standards.
+  * Use dh-autoreconf to update libtool.m4 for new ports. (Closes: #733021)
+
+ -- Roberto Lumbreras <rover@debian.org>  Sun, 29 Dec 2013 17:17:36 +0100
+
+libdmtx (0.7.4-1) unstable; urgency=low
+
+  * New upstream version. Source split in two tarballs: libdmtx and
+    dmtx-utils (new package); libdmtx-utils becomes a transitional package
+    for dmtx-utils.
+
+ -- Roberto Lumbreras <rover@debian.org>  Mon, 20 Aug 2012 17:34:19 +0200
+
+libdmtx (0.7.2-3) unstable; urgency=low
+
+  * Depend on libtiff-dev instead of libtiff4-dev. (Closes: #681821)
+  * Do not install .la file. Install pkgconfig file.
+
+ -- Roberto Lumbreras <rover@debian.org>  Sun, 19 Aug 2012 02:54:34 +0200
+
+libdmtx (0.7.2-2) unstable; urgency=low
+
+  * Updated standards.
+  * Depend on libpng-dev instead of libpng12-dev. (Closes: #662396)
+  * Multiarch support.
+
+ -- Roberto Lumbreras <rover@debian.org>  Tue, 06 Mar 2012 03:08:36 +0100
+
+libdmtx (0.7.2-1) unstable; urgency=low
+
+  * New upstream version.
+  * Standards 3.8.3.
+  * Switch to source format 3.0 (quilt)
+
+ -- Roberto Lumbreras <rover@debian.org>  Sun, 22 Nov 2009 20:43:00 +0100
+
+libdmtx (0.7.0-1) unstable; urgency=low
+
+  * New upstream version. Renamed libdmtx0 to libdmtx0a because of API
+    changes, conflicting with libdmtx0 but not replacing it (old binaries
+    won't work with new library).
+  * Updated standards.
+
+ -- Roberto Lumbreras <rover@debian.org>  Wed, 08 Jul 2009 10:20:45 +0200
+
+libdmtx (0.6.0-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Roberto Lumbreras <rover@debian.org>  Wed, 10 Dec 2008 17:52:26 +0100
+
+libdmtx (0.5.2-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Roberto Lumbreras <rover@debian.org>  Tue, 07 Oct 2008 17:29:47 +0200
+
+libdmtx (0.5.1-2) unstable; urgency=low
+
+  * Add libdmtx0.symbols file.
+  * Set debhelper compatibility level to 7.
+
+ -- Roberto Lumbreras <rover@debian.org>  Wed, 20 Aug 2008 23:24:05 +0200
+
+libdmtx (0.5.1-1) unstable; urgency=low
+
+  * Initial release. (Closes: #459625)
+
+ -- Roberto Lumbreras <rover@debian.org>  Mon, 07 Jul 2008 11:53:45 +0200

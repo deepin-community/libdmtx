@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+export DH_OPTIONS
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+override_dh_installdocs:
+	dh_installdocs --link-doc=libdmtx0b
+%:
+	dh $@
